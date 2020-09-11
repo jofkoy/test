@@ -31,7 +31,7 @@ namespace NUnitTestProject1
         public void Test2()
         {
             System.Console.WriteLine("SID: 654321");
-            Assert.AreEqual(true, false, "Failure message of the test!");
+            Assert.AreEqual(true, true, "Failure message of the test!");
         }
 
         [Test]
